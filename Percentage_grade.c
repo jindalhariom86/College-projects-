@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main()
 {
-    int Physics_marks, Chemistry_marks, Maths_marks, English_marks, EVS_marks, Final_percentage, sum;
+    int Physics_marks, Chemistry_marks, Maths_marks, English_marks, EVS_marks, sum;
+    float Final_percentage;
 
     printf("\n\nEnter subject marks below\n\n");
 
@@ -24,19 +25,10 @@ int main()
 
     sum = Maths_marks + EVS_marks + English_marks + Chemistry_marks + Physics_marks;
 
-    if (sum > 500)
-    {
-        printf("You Entered Invalid Numbers\n");
-    }
-    else
-    {
-        printf("\nyour total marks out of 500 : %d\n", sum);
-    }
-
+    printf("\nyour total marks out of 500 : %d\n", sum);
 
     printf("\nYour Final Percentage is : %d%%\n\n", Final_percentage);
 
-    
     if (Final_percentage >= 90)
     {
         printf("Your Grade is : A");
