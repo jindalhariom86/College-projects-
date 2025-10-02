@@ -3,10 +3,10 @@ int main()
 {
     int digit, remainder, sum;
 
-    sum = 0;
-
     printf("Enter any digit : ");
     scanf("%d", &digit);
+    
+    sum = 0;
 
     while (digit != 0)
     {
