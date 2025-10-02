@@ -1,21 +1,20 @@
 #include <stdio.h>
 int main()
 {
-    //Intro
-    printf("\nHere is Odd Even checker\n\n");
-    
-    //Getting Input
-    printf("Enter any Number to Check Odd Or Even : ");
     int a;
+    printf("\nHere is Odd Even checker\n\n");
+
+    printf("Enter any Number to Check Odd Or Even : ");
     scanf("%d", &a);
 
-    //Checker
-    if (a%2 == 1)
+    if (a % 2 == 1)
     {
-        printf("\nYour Number is 'Odd'");
+        printf("\nGiven Number is 'Odd'");
     }
-    else{
-        printf("\nYour Number is 'Even'");
+    else
+    {
+        printf("\nGiven Number is 'Even'");
     }
+
     return 0;
 }
