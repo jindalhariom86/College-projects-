@@ -1,15 +1,16 @@
 #include <stdio.h>
-// #include <windows.h>
 int main()
 {
     char i;
+    float first_number, second_number;
+
     printf("Enter first number : ");
-    float first_number;
     scanf("%f", &first_number);
+
     printf("Enter operation : ");
     scanf(" %c", &i);
+
     printf("Enter second number : ");
-    float second_number;
     scanf("%f", &second_number);
 
     switch (i)
@@ -37,8 +38,8 @@ int main()
         }
         break;
 
-    default : 
-    printf("\nInvalid Operation");
+    default:
+        printf("\nInvalid Operation");
     }
     return 0;
 }
