@@ -1,17 +1,17 @@
 #include <stdio.h>
 int main()
 {
-    //Intro 
-    printf("\n\nEnter value to check that both are equal or not\n\n");
-    // Getting Input
-    printf("Enter the First value : ");
-    int first, second;
-    scanf("%d", &first);
-    printf("Enter Second value : ");
-    scanf("%d", &second);
+    int first_num, second_num;
 
-    //Checker
-    if (first==second)
+    printf("\n\nEnter value to check that both are equal or not\n\n");
+
+    printf("Enter the First value : ");
+    scanf("%d", &first_num);
+
+    printf("Enter Second value : ");
+    scanf("%d", &second_num);
+
+    if (first_num == second_num)
     {
         printf("Entered value are equal\n");
     }
@@ -19,7 +19,6 @@ int main()
     {
         printf("Given values are not Equal\n");
     }
-    
-    
+
     return 0;
 }
