@@ -1,19 +1,17 @@
 #include <stdio.h>
-int main ()
+int main()
 {
-    printf("Enter any year to check wheather a given year is Leap year or Not\n\n");
-    
-    //Getting Input
-    printf("Enter year here : ");
     int year;
+    printf("Enter any year to check wheather a given year is Leap year or Not\n\n");
+
+    printf("Enter year here : ");
     scanf("%d", &year);
 
-    //Checker
-    if (year%4 == 0 && year%100 != 0)
+    if (year % 4 == 0 && year % 100 != 0)
     {
         printf("Given year is Leap year\n");
     }
-    else if (year%100 == 0 && year%400 == 0)    
+    else if (year % 400 == 0)
     {
         printf("Given year is Leap year\n");
     }
@@ -21,8 +19,6 @@ int main ()
     {
         printf("Given Year is not Leap Year\n");
     }
-    
-    
-    
+
     return 0;
 }
