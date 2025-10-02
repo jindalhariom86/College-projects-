@@ -1,20 +1,20 @@
 #include <stdio.h>
 int main()
 {
-    //Intro
-    printf("\nEnter Three Nimbers to check Greatest of three Numbers\n\n");
-    
-    //Getting Input 
-    printf("Enter value of 'a' here : ");
     int a, b, c;
+    
+    printf("\nEnter Three Nimbers to check Greatest of three Numbers\n\n");
+
+    printf("Enter value of 'a' here : ");
     scanf("%d", &a);
+
     printf("Enter value of 'b' Here : ");
     scanf("%d", &b);
+
     printf("Enter value of 'c' here : ");
     scanf("%d", &c);
 
-    //Conditions
-    if (a > b && a>c)
+    if (a > b && a > c)
     {
         if (b > c)
         {
@@ -25,7 +25,7 @@ int main()
             printf("Order is a>c>b\n");
         }
     }
-    else if (b > a && b>c)
+    else if (b > a && b > c)
     {
         if (c > a)
         {
@@ -36,7 +36,7 @@ int main()
             printf("b>a>c\n");
         }
     }
-    else if (c > b && c>a)
+    else if (c > b && c > a)
     {
         if (a > b)
         {
