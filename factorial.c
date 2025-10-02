@@ -1,10 +1,11 @@
 #include <stdio.h>
 int main()
 {
-
     int a;
     unsigned long long result = 1;
+
     printf("\n\nHere is your Factorial Calculator\n\n");
+
     printf("Enter Number : ");
     scanf("%d", &a);
 
@@ -25,5 +26,3 @@ int main()
 
     return 0;
 }
-
-
